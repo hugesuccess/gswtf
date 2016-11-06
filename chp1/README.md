@@ -44,6 +44,11 @@ Assign a variable
 y = tf.Variable(x + 9, name='y')
 ```
 
+Assign a placeholder variable
+```
+a = tf.placeholder("int32")
+```
+
 Before you can use tensorflow objects in the graph (runtime) you need to initialize them first
 ```
 model = tf.initialize_all_variables()
@@ -53,3 +58,20 @@ To run the tensorflow calulations
 ```
 with tf.Session() as session:
     session.run(model)
+```
+
+Add default values to your session for your placeholders
+```
+sess.run(y, feed_dict={a: 2, b: 5})
+```
+
+
+Data Flow Graphs || TensorBoard
+ - "Node"          = instance of an operation
+ - "Normal Edges"  = carry data from output of one node to input of the next
+ - "Special Edges" = depedency but no data / i.e. "Happens before"
+ - "Operation"     = a computation
+ - "Kernel"        = defines the implementation of an operation on X device
+ - "Session"       = connection to tensorflow runtime
+
+
