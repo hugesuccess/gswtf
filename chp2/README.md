@@ -31,8 +31,8 @@ tensor_1d.dtype
 
 ### TensorFlow Operations
 
-TensorFlow operator | Description
---- | --- | ---
+TensorFlow Operator | Description
+:---: | --- | ---
 tf.add | Returns the sum
 tf.sub | Returns subtraction
 tf.mul | Returns the multiplication
