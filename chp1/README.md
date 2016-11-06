@@ -21,8 +21,10 @@ Syntesizing new knowledge by learning from data w/ the use of 'pattern recogniti
  - Each level corresponds to a different area of the cerebral cortex
 
 ### TensorFlow
- - "Tensor" =  multi-dimensional arrays  
- 
+ - "Tensor" =  multi-dimensional array
+ - Defining, optimizing, and efficiently calculating mathematical expressions involving multi-dimensional arrays 
+ - Programming support of deep neural networks and machine learning techniques
+ - TensorFlow will figure out which parts of the computation should be moved to the GPU
 
 ### Python
  - Programming! Yay!
