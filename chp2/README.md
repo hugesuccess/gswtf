@@ -28,6 +28,7 @@ Find the tensor datatype
 ```
 tensor_1d.dtype 
 ```
+----------------------
 
 ### TensorFlow Operations
 
