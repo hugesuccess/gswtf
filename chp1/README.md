@@ -82,3 +82,14 @@ Add default values to your session for your placeholders
 sess.run(y, feed_dict={a: 2, b: 5})
 ```
 
+To output the current graph to tensorboard
+```
+merged = tf.merge_all_summaries()
+writer = tf.train.SummaryWriter("/tmp/tensorflowlogs",session.graph) 
+```
+
+To start tensorboard run
+```
+tensorboard --logdir=/tmp/tensorflowlogs
+```
+
