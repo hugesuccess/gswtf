@@ -28,6 +28,26 @@ Find the tensor datatype
 ```
 tensor_1d.dtype 
 ```
+Create a 2d tensor
+```
+tensor_2d=np.array([(1,2,3,4),(4,5,6,7),(8,9,10,11),(12,13,14,15)]) 
+```
+Access the value of a 2d tensor
+```
+tensor_2d[3][3] 
+```
+Create a 3d tensor
+```
+tensor_3d = np.array([[[1,2],[3,4]],[[5,6],[7,8]]]) 
+```
+
+To retrieve an element from a three-dimensional tensor,
+```
+tensor_3d[plane,row,col]
+```
+
+
+
 ----------------------
 
 ### TensorFlow Operations
