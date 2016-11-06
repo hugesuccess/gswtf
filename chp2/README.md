@@ -29,3 +29,44 @@ Find the tensor datatype
 tensor_1d.dtype 
 ```
 
+### TensorFlow Operations
+
+TensorFlow operator | Description
+
+tf.add | Returns the sum
+
+tf.sub | Returns subtraction
+
+tf.mul | Returns the multiplication
+
+tf.div | Returns the division
+
+tf.mod | Returns the module
+
+tf.abs | Returns the absolute value
+
+tf.neg | Returns the negative value
+
+tf.sign | Returns the sign
+
+tf.inv | Returns the inverse
+
+tf.square | Returns the square
+
+tf.round | Returns the nearest integer
+
+tf.sqrt | Returns the square root
+
+tf.pow | Returns the power
+
+tf.exp | Returns the exponential
+
+tf.log | Returns the logarithm
+
+tf.maximum | Returns the maximum
+
+tf.minimum | Returns the minimum
+
+tf.cos | Returns the cosine
+
+tf.sin | Returns the sine
