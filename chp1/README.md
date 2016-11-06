@@ -1,8 +1,8 @@
-### Machine Learning && Deep Learning Basics
+# Machine Learning && Deep Learning Basics
 
 Syntesizing new knowledge by learning from data w/ the use of 'pattern recognition'.
 
-# Supervised Learning
+### Supervised Learning
  - Most common form of ML
  - Training data submitted w/ desired output value
  - Good for "Clasification Problems" - system must attribute new data to known classes
@@ -11,23 +11,38 @@ Syntesizing new knowledge by learning from data w/ the use of 'pattern recogniti
  - cost function(), loss/error = desired output system - actual output
  - "Validation set" - Measures the acuracy of the model
 
-# Unsupervised Learning
+### Unsupervised Learning
  - Unlabeled input data
  - System organizes data by common characteristics
  - Good for "Clustering Problems" where you don't know the outcome groups in advance
 
-# Deep Learning
+### Deep Learning
  - Good for NLP - (Natural Language Processing)
  - Each level corresponds to a different area of the cerebral cortex
 
-## TensorFlow
+### TensorFlow
  - "Tensor" =  multi-dimensional arrays  
  
 
-## Python
+### Python
  - Programming! Yay!
 
-Example Code:
+### The TensorFlow Graph
+ - "Node" 
+      * Instance of an operation
+ - "Normal Edges"
+      * Carry data from output of one node to input of the next
+ - "Special Edges"
+      * Depedency w/o data
+      *  i.e. "Happens before"
+ - "Operation" 
+      * A computation
+ - "Kernel"
+      * Defines the implementation of an operation on X device
+ - "Session"
+      * Connection to tensorflow runtime
+
+### Examples:
 
 Import the tensorflow package
 ```
@@ -64,14 +79,4 @@ Add default values to your session for your placeholders
 ```
 sess.run(y, feed_dict={a: 2, b: 5})
 ```
-
-
-Data Flow Graphs || TensorBoard
- - "Node"          = instance of an operation
- - "Normal Edges"  = carry data from output of one node to input of the next
- - "Special Edges" = depedency but no data / i.e. "Happens before"
- - "Operation"     = a computation
- - "Kernel"        = defines the implementation of an operation on X device
- - "Session"       = connection to tensorflow runtime
-
 
