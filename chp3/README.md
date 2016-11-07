@@ -46,3 +46,35 @@ Handwritten numbers dataset available [here]( http://yann.lecun.com/exdb/mnist/)
         * For every new classification, implemented by adding the new data to all initial instances and repeating the calculation procedure for the selected K value
     2. Requires a high amount of data to make realistic predictions
     3. Is sensitive to the noise of the analyzed data
+
+### Data Clustering
+ - Unsupervised Learning
+ - Selection and grouping of homogeneous items
+ - Steps to solve:
+    1. Identify a resemblance measure between elements
+    2. Find out if there are subsets of elements that are similar to the measure chosen
+ - The algorithm determines which elements form a cluster and what degree of similarity unites them within the cluster
+
+### K-Means Algorithm
+ - Most Common
+ - Subdivide groups of objects into k partitions on the basis of their attributes
+ - Each cluster is identified by a point or centroid average
+ - Agorithm
+    1. Randomly select K points as the initial centroids.
+    2. Repeat.
+    3. Form K clusters by assigning all points to the closest centroid.
+    4. Recompute the centroid of each cluster.
+    5. Until the centroids don't change.
+ - Pro's
+    1. Convergence speed
+    2. Ease of implementation
+    3. Super Fast
+ - Con's
+    1. No global optimum guarantee
+    2. Quality of the final solution depends largely on the initial set of clusters
+    3. Requires you to choose the number of clusters (k) to find
+    4. If the data is not naturally partitioned, you will end up getting strange results
+    5. Works well only when there are identifiable spherical clusters in the data
+
+##### Cost Functions && Optimizations
+
