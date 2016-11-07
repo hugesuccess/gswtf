@@ -9,6 +9,10 @@
 #### Numpy
  - Used to build n-dimensional arrays
 
+### Partial Differential Equation
+ - differential equation involving partial derivatives (results/outputs) of an unknown function of several independent variables
+ - commonly used to solve physical problems in various fields, from quantum mechanics to financial markets.
+
 ### Examples
 
 Create a 1d tensor w/ numpy
