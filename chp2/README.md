@@ -46,7 +46,24 @@ To retrieve an element from a three-dimensional tensor,
 tensor_3d[plane,row,col]
 ```
 
+Matrix Multiplication
+```
+matrix_product = tf.matmul(matrix1, matrix2) 
+```
 
+To compute a gradient
+```
+tf.gradients(x, y)
+```
+
+Random Numbers
+```
+# Uniform Distribution
+random_uniform(shape, minval, maxval, dtype, seed, name) 
+
+# Random Normal
+tf.random_normal([100], mean=0, stddev=2) 
+```
 
 ----------------------
 
